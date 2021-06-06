@@ -47,3 +47,14 @@ def test():
         exit()
     else:
         print("Please, try again.")
+        
+def end():
+    print('Congratulations, have a nice day!')
+
+
+greet('Netko', '2021')  # change it as you need
+remind_name()
+guess_age()
+count()
+test()
+end()
